@@ -23,3 +23,11 @@ add_executable(Dijkstra
 add_executable(a_star
         a_star/a_stat.cpp
 )
+
+add_executable(Dijkstra_NoPath
+        Dijkstra/Dijkstra_NoPath.cpp
+)
+
+add_executable(Dijkstra_DistanceFields
+        Dijkstra/Dijkstra_DistanceFields.cpp
+)
