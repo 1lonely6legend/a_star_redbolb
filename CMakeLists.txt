@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.23)
+cmake_minimum_required(VERSION 3.16)
 
 project(A_STAR)
 
@@ -21,7 +21,7 @@ add_executable(Dijkstra
 )
 
 add_executable(a_star
-        a_star/a_stat.cpp
+        a_star/a_star.cpp
 )
 
 add_executable(Dijkstra_NoPath
